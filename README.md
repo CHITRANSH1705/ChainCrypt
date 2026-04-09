@@ -25,7 +25,6 @@ ChainCrypt is a secure file storage system that encrypts and splits files into m
 4. Select the file you want to encrypt.
 
 Set a password (this will be used to decrypt the file later).
-
 The file is split into chunks and encrypted.
 
 A blockchain.json file is created to track chunk order.
