@@ -24,7 +24,6 @@ def encrypt_chunks(file_path, password):
     with open("blockchain.json", "w") as f:
         json.dump(blockchain, f)
     print("\n File encrypted and blockchain saved.")
-
 # --------- Decryption Utilities ---------
 def decrypt_chunks(output_file, password, user_email):
     key = generate_key(password)
