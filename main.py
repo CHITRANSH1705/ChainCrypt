@@ -4,7 +4,6 @@ import smtplib
 import base64
 from email.mime.text import MIMEText
 from cryptography.fernet import Fernet
-
 # --------- Encryption Utilities --------->
 def generate_key(password: str) -> bytes:
     return base64.urlsafe_b64encode(password.encode('utf-8').ljust(32)[:32])
