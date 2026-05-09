@@ -53,7 +53,6 @@ def decrypt_chunks(output_file, password, user_email):
                     return
     print(f"\n File reconstructed as {output_file}")
     send_email_notification(user_email, output_file)
-
 # --------- Email Notification ---------
 def send_email_notification(receiver_email, filename):
     sender_email = "SET_YOURMAIL@gmail.com"        
