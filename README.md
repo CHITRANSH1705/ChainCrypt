@@ -7,6 +7,7 @@ ChainCrypt is a secure file storage system that encrypts and splits files into m
 - smtplib & MIME (for email notifications)
 
 
+
 🎯 Features
 -  Password-Based Encryption 
   User sets a custom password to encrypt files securely.
