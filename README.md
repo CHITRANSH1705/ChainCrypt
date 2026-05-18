@@ -8,7 +8,7 @@ ChainCrypt is a secure file storage system that encrypts and splits files into m
 
 
 
-🎯 Features
+ Features
 -  Password-Based Encryption 
   User sets a custom password to encrypt files securely.
 -  File Chunking
