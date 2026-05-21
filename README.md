@@ -1,6 +1,7 @@
 ChainCrypt is a secure file storage system that encrypts and splits files into multiple chunks, stores their integrity using a lightweight blockchain, and sends email notifications upon successful decryption. It uses password-based encryption, GUI interaction, and ensures that the data remains private and tamper-proof.
 
  🚀 Tech Stack
+ 
 - Python
 - Cryptography (Fernet) for encryption
 - JSON (to simulate blockchain)
