@@ -30,7 +30,6 @@ The file is split into chunks and encrypted.
 A blockchain.json file is created to track chunk order.
 
 5. Decrypt a File
-
 Enter the same password used during encryption.
 
 Provide an output filename (e.g., Resume_decrypted.pdf).
