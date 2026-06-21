@@ -21,6 +21,7 @@ ChainCrypt is a secure file storage system that encrypts and splits files into m
 -  Email Notification*
   After successful decryption, a confirmation email is sent to the user.
 
+
  How to Use
  1. Install Dependencies
     pip install cryptography
