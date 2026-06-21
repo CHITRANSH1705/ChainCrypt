@@ -2,6 +2,7 @@ ChainCrypt is a secure file storage system that encrypts and splits files into m
 
 
  🚀 Tech Stack
+
  
 - Python
 - Cryptography (Fernet) for encryption
