@@ -6,7 +6,6 @@ from email.mime.text import MIMEText
 from cryptography.fernet import Fernet
 # --------- Encryption Utilities --------->
 
-
 def generate_key(password: str) -> bytes:
     return base64.urlsafe_b64encode(password.encode('utf-8').ljust(32)[:32])
 def encrypt_chunks(file_path, password):
@@ -26,7 +25,6 @@ def encrypt_chunks(file_path, password):
     with open("blockchain.json", "w") as f:
         json.dump(blockchain, f)
     print("\n File encrypted and blockchain saved.")
-
 
 
 # --------- Decryption Utilities ---------
