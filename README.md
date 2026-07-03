@@ -31,7 +31,6 @@ A blockchain.json file is created to track chunk order.
 
 5. Decrypt a File
 Enter the same password used during encryption.
-
 Provide an output filename (e.g., Resume_decrypted.pdf).
 
 Enter your email address to receive a confirmation.
