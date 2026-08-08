@@ -12,7 +12,7 @@ ChainCrypt is a secure file storage system that encrypts and splits files into m
   Files are split into multiple encrypted chunks (1 MB each).
 -  Blockchain Simulation
   Each encrypted chunk is recorded in a local blockchain (JSON) for integrity.
--  Email Notification*
+-  Email Notification
   After successful decryption, a confirmation email is sent to the user.
 
  How to Use
