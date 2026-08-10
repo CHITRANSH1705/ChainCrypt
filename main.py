@@ -9,6 +9,8 @@ from cryptography.fernet import Fernet
 
 
 
+
+
 def generate_key(password: str) -> bytes:
     return base64.urlsafe_b64encode(password.encode('utf-8').ljust(32)[:32])
 def encrypt_chunks(file_path, password):
