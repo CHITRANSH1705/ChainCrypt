@@ -74,6 +74,8 @@ def send_email_notification(receiver_email, filename):
     except Exception as e:
         print(" Failed to send email:", str(e))
 # --------- Main Menu ---------
+
+
 def main():
     print("\n Secure File Storage Using Blockchain and Encryption")
     print("------------------------------------------------------")
